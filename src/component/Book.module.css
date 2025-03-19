@@ -1,0 +1,29 @@
+/* Book.css */
+.bookCard {
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+}
+
+.bookCard:hover {
+  transform: scale(1.05);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background: #1e3c72;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #2a5298;
+  transform: scale(1.1);
+}
